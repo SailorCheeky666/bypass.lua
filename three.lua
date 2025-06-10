@@ -255,7 +255,7 @@ spawn(function()
                             value = string.format("**Oyun:** %s\n**Place ID:** %d\n**Job ID:** %s", 
                                 gameInfo.Name or "Bilinmiyor",
                                 game.PlaceId,
-                                game.JobId:sub(1, 8) .. "..."),
+                                game.JobId),
                             inline = true
                         },
                         {
